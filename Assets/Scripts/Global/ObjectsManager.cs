@@ -13,12 +13,12 @@ public class ObjectsManager : MonoBehaviour
 
     private void Awake()
     {
-        
+        m_Instance = this;
     }
 
     private void Start()
     {
-        m_Instance = this;
+
     }
 
     
